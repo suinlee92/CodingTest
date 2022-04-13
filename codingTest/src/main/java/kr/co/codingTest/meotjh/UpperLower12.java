@@ -1,3 +1,5 @@
+package kr.co.codingTest.meotjh;
+
 import java.util.Scanner;
 
 public class UpperLower12 {

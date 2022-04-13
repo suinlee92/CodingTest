@@ -1,3 +1,5 @@
+package kr.co.codingTest.meotjh;
+
 import java.io.IOException;
 import java.util.Scanner;
 
