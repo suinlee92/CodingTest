@@ -1,10 +1,10 @@
-package wordReverse;
+package kr.co.codingTest.kkyu;
 
 import java.awt.Shape;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-// ¹®ÀÚ µÚÁý±â
+// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 //3
 //good
 //Time
@@ -12,13 +12,13 @@ import java.util.Scanner;
 class wordReverse {
 	public ArrayList<String> solution(int n, String[] str) {
 		ArrayList<String> answer = new ArrayList<String>();
-		// ´Ü¼øÈ÷ ¹®ÀÚ¿­¸¸ µÚÁý´Â ¾Ë°í¸®Áò
+		// ï¿½Ü¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ë°ï¿½ï¿½ï¿½
 //		for(String x : str) {
 //			String tmp= new StringBuilder(x).reverse().toString();
 //			answer.add(tmp);
 //		}
-		// Æ¯Á¤ ¹®ÀÚ¸¸ µÚÁý´Â ¾Ë°í¸®Áò
-		// ÀÌ ¾Ë°í¸®Áò Áß¿äÇÔ ³»°¡ ±¸ÇöÇÒ ÁÙ ¾Ë¾Æ¾ß ÇÔ
+		// Æ¯ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ë°ï¿½ï¿½ï¿½
+		// ï¿½ï¿½ ï¿½Ë°ï¿½ï¿½ï¿½ ï¿½ß¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ë¾Æ¾ï¿½ ï¿½ï¿½
 		for(String x : str) {
 			char[] s = x.toCharArray();
 			int lt = 0, rt=x.length()-1;
