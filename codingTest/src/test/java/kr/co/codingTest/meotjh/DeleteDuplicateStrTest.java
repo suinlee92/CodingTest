@@ -1,6 +1,5 @@
 package kr.co.codingTest.meotjh;
 
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -10,11 +9,10 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 
 class DeleteDuplicateStrTest {
 
-    private DeleteDuplicateStr dds = new DeleteDuplicateStr();
+    private DeleteDuplicateStr16 dds = new DeleteDuplicateStr16();
 
     @Test
     @DisplayName("중복이_들어가면_없앤다")

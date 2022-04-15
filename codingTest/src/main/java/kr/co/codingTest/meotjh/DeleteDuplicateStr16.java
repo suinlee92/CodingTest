@@ -3,11 +3,11 @@ package kr.co.codingTest.meotjh;
 import java.util.Scanner;
 import java.util.stream.Stream;
 
-public class DeleteDuplicateStr {
+public class DeleteDuplicateStr16 {
 
     public static void main(String[] args) {
 
-        DeleteDuplicateStr dds = new DeleteDuplicateStr();
+        DeleteDuplicateStr16 dds = new DeleteDuplicateStr16();
         String target = new Scanner(System.in).next();
         dds.extracted(target).forEach(System.out::print);
 
