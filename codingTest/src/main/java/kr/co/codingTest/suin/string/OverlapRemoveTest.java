@@ -2,7 +2,7 @@ package kr.co.codingTest.suin.string;
 
 import java.util.Scanner;
 
-public class overlapRemoveTest {
+public class OverlapRemoveTest {
 
 	public static String remove(String string) {
 		
