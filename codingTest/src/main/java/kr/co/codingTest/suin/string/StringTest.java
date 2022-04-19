@@ -1,4 +1,4 @@
-package kr.co.codingTest.suin;
+package kr.co.codingTest.suin.string;
 
 import java.util.Scanner;
 import java.util.regex.Pattern;

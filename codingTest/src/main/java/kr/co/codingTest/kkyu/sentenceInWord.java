@@ -1,14 +1,14 @@
-package sentenceInWord;
+package kr.co.codingTest.kkyu;
 
 import java.util.Scanner;
 
-// ¹®Àå ¼Ó ´Ü¾î Ã£±â
+// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ü¾ï¿½ Ã£ï¿½ï¿½
 public class sentenceInWord {
 
 	public String solution(String str) {
 		String answer="";
 		int m=Integer.MIN_VALUE,
-		// split°ú Çâ»óµÈ for¹®À¸·Î ÇØ°á
+		// splitï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ forï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ø°ï¿½
 //		String[] s=str.split(" ");
 //		for(String x : s) {
 //			int len = x.length();
@@ -17,7 +17,7 @@ public class sentenceInWord {
 //				answer=x;
 //			}
 //		}
-		// indexof, substringÀ¸·Î ÇØ°á
+		// indexof, substringï¿½ï¿½ï¿½ï¿½ ï¿½Ø°ï¿½
 		pos;
 		while((pos=str.indexOf(' '))!=-1){
 			String tmp=str.substring(0, pos);

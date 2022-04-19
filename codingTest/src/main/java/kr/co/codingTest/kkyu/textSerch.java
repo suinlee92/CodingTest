@@ -1,8 +1,8 @@
-package textSerch;
+package kr.co.codingTest.kkyu;
 
 import java.util.Scanner;
 
-// ¹®ÀÚ Ã£±â
+// ï¿½ï¿½ï¿½ï¿½ Ã£ï¿½ï¿½
 //Computercooler
 //c
 public class textSerch {
@@ -13,11 +13,11 @@ public class textSerch {
 		t=Character.toUpperCase(t);
 		// System.out.println(str+" "+t);
 		
-		// for¹®À¸·Î ½ÇÇàÇÒ¶§
+		// forï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ò¶ï¿½
 //		for(int i=0; i<str.length(); i++) { 
 //			if(str.charAt(i)==t) answer++;
 //		}
-		// Çâ»óµÈ for¹®À¸·Î ½ÇÇà ÇÒ¶§
+		// ï¿½ï¿½ï¿½ï¿½ forï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ò¶ï¿½
 		for(char x : str.toCharArray())
 			if(x==t) answer++;
 		return answer;

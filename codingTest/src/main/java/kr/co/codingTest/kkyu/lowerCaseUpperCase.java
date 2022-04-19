@@ -1,14 +1,14 @@
-package lowerCaseUpperCase;
+package kr.co.codingTest.kkyu;
 
 import java.util.Scanner;
 
-// ´ë¼Ò¹®ÀÚ ¹Ù²Ù±â
+// ï¿½ï¿½Ò¹ï¿½ï¿½ï¿½ ï¿½Ù²Ù±ï¿½
 // StuDY
 public class lowerCaseUpperCase {
 
 	public String solution(String str) {
 		String answer= "";
-		// Çâ»óµÈ for¹®À¸·Î ½ÇÇà ÇÒ¶§
+		// ï¿½ï¿½ï¿½ï¿½ forï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ò¶ï¿½
 		for(char x : str.toCharArray()) {
 			if(Character.isLowerCase(x))
 				answer+=Character.toUpperCase(x);
