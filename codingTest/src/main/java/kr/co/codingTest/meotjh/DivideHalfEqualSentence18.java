@@ -5,22 +5,22 @@ public class DivideHalfEqualSentence18 {
 
     String pattern = "[^a-z]";
 
-    public String getFlag() {
+    public String getFlag(String target) {
 
-        String target = new Scanner(System.in)
-                .nextLine()
-                .toLowerCase()
-                .replaceAll(pattern, "");
+        String solution = target
+                            .toLowerCase()
+                            .replaceAll(pattern, "");
 
-        StringBuilder sb = new StringBuilder(target);
-        String flag = sb.reverse().equals(sb)? "YES" : "NO";
+        StringBuilder sb = new StringBuilder(solution);
+        String flag = sb.reverse().toString().equals(solution.toString()) ? "YES" : "NO";
         return flag;
 
     }
 
     public static void main(String[] args) {
         DivideHalfEqualSentence18 dh = new DivideHalfEqualSentence18();
-        String answer = dh.getFlag();
+        String target = new Scanner(System.in).nextLine();
+        String answer = dh.getFlag(target);
         System.out.println("answer = " + answer);
 
     }
