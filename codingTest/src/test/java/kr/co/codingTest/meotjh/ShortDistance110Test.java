@@ -1,6 +1,6 @@
 package kr.co.codingTest.meotjh;
 
-import org.assertj.core.api.Assertions;
+import kr.co.codingTest.meotjh.chapter1.ShortDistance110;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

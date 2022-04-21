@@ -1,11 +1,10 @@
 package kr.co.codingTest.meotjh;
 
-import org.assertj.core.api.Assertions;
+import kr.co.codingTest.meotjh.chapter1.DivideHalfEqual17;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 
 class DivideHalfEqual17Test {
 

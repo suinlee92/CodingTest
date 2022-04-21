@@ -1,4 +1,4 @@
-package kr.co.codingTest.meotjh;
+package kr.co.codingTest.meotjh.chapter1;
 
 import java.util.Scanner;
 import java.util.stream.Stream;

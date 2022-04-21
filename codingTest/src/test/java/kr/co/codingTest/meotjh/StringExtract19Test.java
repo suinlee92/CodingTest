@@ -1,5 +1,6 @@
 package kr.co.codingTest.meotjh;
 
+import kr.co.codingTest.meotjh.chapter1.StringExtract19;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

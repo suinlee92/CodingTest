@@ -1,4 +1,4 @@
-package kr.co.codingTest.meotjh;
+package kr.co.codingTest.meotjh.chapter1;
 import java.util.Scanner;
 
 public class DivideHalfEqual17 {
@@ -20,7 +20,7 @@ public class DivideHalfEqual17 {
         for (int i = 0; i < targetToArr.length / 2; i++) {
             if (targetToArr[i] == targetToArr[end]) {
                 flag = "YES";
-                end -=1;
+                end -= 1;
             }else{
                 flag = "NO";
                 break;
