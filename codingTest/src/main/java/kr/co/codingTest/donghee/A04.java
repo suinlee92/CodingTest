@@ -1,4 +1,4 @@
-package string;
+package kr.co.codingTest.donghee;
 
 import java.util.ArrayList;
 import java.util.Scanner;

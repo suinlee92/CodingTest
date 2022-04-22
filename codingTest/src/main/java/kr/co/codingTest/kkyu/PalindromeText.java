@@ -1,4 +1,4 @@
-package palindromeText;
+package kr.co.codingTest.kkyu;
 
 import java.util.Scanner;
 

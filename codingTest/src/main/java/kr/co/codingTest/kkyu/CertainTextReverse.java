@@ -1,4 +1,4 @@
-package certainTextReverse;
+package kr.co.codingTest.kkyu;
 
 import java.util.Scanner;
 
