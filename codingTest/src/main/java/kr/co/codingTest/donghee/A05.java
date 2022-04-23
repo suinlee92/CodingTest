@@ -12,7 +12,7 @@ public class A05 {
 
         while (start<end){
             if(!Character.isAlphabetic(cha[start])) start++;
-            else if(!Character.isAlphabetic(cha[end])) end++;
+            else if(!Character.isAlphabetic(cha[end])) end--;
             else{
                 change = cha[start];
                 cha[start] = cha[end];
