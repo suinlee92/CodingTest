@@ -1,4 +1,4 @@
-package kr.co.codingTest.meotjh;
+package kr.co.codingTest.meotjh.chapter1;
 
 import kr.co.codingTest.meotjh.chapter1.DivideHalfEqualSentence18;
 import org.assertj.core.api.Assertions;

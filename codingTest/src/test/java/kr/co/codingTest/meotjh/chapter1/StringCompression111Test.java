@@ -20,9 +20,13 @@ class StringCompression111Test {
     @DisplayName("문자가 지속되면 압축한다")
     void getSolutionTest(){
 
-        //given //when
-        String solution1 = sc.getSolution("KKHSSSSSSSE").toString();
-        String solution2 = sc.getSolution("KSTTTSEEKFKKKDJJGG").toString();
+        //given
+        String target1 = "KKHSSSSSSSE";
+        String target2 = "KSTTTSEEKFKKKDJJGG";
+
+        // when
+        String solution1 = sc.getSolution(target1).toString();
+        String solution2 = sc.getSolution(target2).toString();
 
         //then
         assertThat(solution1).isEqualTo("K2HS7E");

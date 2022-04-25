@@ -21,9 +21,11 @@ class Cipher112Test {
     void getSolutionTest(){
 
         //given
-        String solution = cipher.getSolution(4,"#****###**#####**#####**##**");
+        Integer targetLength = 4;
+        String target = "#****###**#####**#####**##**";
 
         //when
+        String solution = cipher.getSolution(targetLength,target);
 
         //then
         assertThat(solution).isEqualTo("COOL");

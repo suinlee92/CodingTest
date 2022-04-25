@@ -1,4 +1,4 @@
-package kr.co.codingTest.meotjh;
+package kr.co.codingTest.meotjh.chapter1;
 
 import kr.co.codingTest.meotjh.chapter1.DivideHalfEqual17;
 import org.junit.jupiter.api.DisplayName;

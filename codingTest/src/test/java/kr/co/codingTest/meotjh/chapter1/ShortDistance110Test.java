@@ -1,4 +1,4 @@
-package kr.co.codingTest.meotjh;
+package kr.co.codingTest.meotjh.chapter1;
 
 import kr.co.codingTest.meotjh.chapter1.ShortDistance110;
 import org.junit.jupiter.api.BeforeEach;
@@ -27,8 +27,8 @@ class ShortDistance110Test {
         //when
         List<Integer> solution = sd.getSolution(passiveStr, activeStr);
         Object[] answerArr = solution.toArray();
-        //then
         Object[] result = {0 ,1, 2, 3, 3, 2, 1, 0, 1, 2, 3, 4, 5, 6, 5, 4, 3, 2, 1, 0, 1, 2, 3, 2, 1, 0, 1, 2};
+        //then
         assertThat(answerArr).isEqualTo(result);
 
     }
