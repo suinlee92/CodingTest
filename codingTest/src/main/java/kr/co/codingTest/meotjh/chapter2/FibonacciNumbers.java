@@ -36,9 +36,7 @@ public class FibonacciNumbers {
             }
 
         }
-
         return fiboNums;
-
     }
 
 }
