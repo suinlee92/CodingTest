@@ -8,24 +8,20 @@ public class TempLeader {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        Integer stuNums = sc.nextInt();
-        sc.nextLine();
 
+        Integer stuNums = sc.nextInt();
         int[][] allStuCls = new int[stuNums][5];
-        for( int i = 0 ; i < stuNums ; i ++ ){
-            int[] classes = Arrays.stream( sc.nextLine().split(" ") )
-                                  .mapToInt(Integer::parseInt)
-                                  .toArray();
-            allStuCls[i] = classes;
+
+        for(int i=0; i<stuNums; i++){
+            for(int j=0; j<stuNums; j++){
+                allStuCls[i][j]=sc.nextInt();
+            }
         }
 
         TempLeader tl = new TempLeader();
         int tempLeader = tl.calTempLeader(stuNums, allStuCls);
 
         System.out.println(tempLeader);
-
-
-
 
     }
 
@@ -37,7 +33,7 @@ public class TempLeader {
 
         for(int p = 0; p < stuNums; p ++){
 
-            for( int i = 0 ; i < 5 ; i++){
+            for( int i = 0 ; i < 5 ; i++){ //5학년 까지라 for문
                 tempStuCls = allStuCls[p][i];
                 for(int j = 0; j < stuNums; j++ ){
 
@@ -75,6 +71,7 @@ public class TempLeader {
         for (int i = 0; i < result.length; i++) {
             maxAt = result[i] > result[maxAt] ? i : maxAt;
         }
+
         return maxAt + 1;
     }
 

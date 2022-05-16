@@ -31,7 +31,7 @@ public class FindPeak {
         Integer[] directionY = { 0, 1, 0, -1};
         Integer tempX = null;
         Integer tempY = null;
-        Boolean flag = null;
+        Boolean flag  = null;
         Integer answer = 0;
 
         for(int x = 0; x < areaNum; x++){
