@@ -2,7 +2,7 @@ package kr.co.codingTest.meotjh.chapter3;
 
 import java.util.Scanner;
 
-public class partSequenceSum {
+public class PartSequenceSum {
 
     public static void main(String[] args) {
 
@@ -15,7 +15,7 @@ public class partSequenceSum {
 
             numArr[i] = sc.nextInt();
         }
-        partSequenceSum partSequenceSum = new partSequenceSum();
+        PartSequenceSum partSequenceSum = new PartSequenceSum();
 
         int rslt = partSequenceSum.calSequenceNums(nums, sumNums, numArr);
 

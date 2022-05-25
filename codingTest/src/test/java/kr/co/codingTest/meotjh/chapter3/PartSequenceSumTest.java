@@ -5,14 +5,12 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+class PartSequenceSumTest {
 
-class partSequenceSumTest {
-
-    partSequenceSum partSequenceSum;
+    PartSequenceSum partSequenceSum;
     @BeforeEach
     void init(){
-        partSequenceSum = new partSequenceSum();
+        partSequenceSum = new PartSequenceSum();
     }
 
     @Test
