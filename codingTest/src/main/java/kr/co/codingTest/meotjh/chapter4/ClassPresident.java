@@ -15,24 +15,29 @@ public class ClassPresident {
         sc.nextLine();
         String classData = sc.nextLine();
 
+        ClassPresident classPresident = new ClassPresident();
+
+        Character rslt = classPresident.getSolution(classData);
+
+        System.out.println(rslt);
+
+
+    }
+
+    public Character getSolution(String classData) {
         HashMap<Character,Integer> map = new HashMap<>();
 
         char[] chars = classData.toCharArray();
-
         for (Character aChar : chars) {
 
             if (map.get(aChar) == null) {
                 map.put(aChar, 1);
             } else {
-                //Integer temp = map.get(aChar) +1 ;
                 map.put(aChar, map.get(aChar) + 1);
             }
         }
 
         Character rslt = Collections.max(map.entrySet(), HashMap.Entry.comparingByValue()).getKey();
-
-        System.out.println(rslt);
-
-
+        return rslt;
     }
 }
