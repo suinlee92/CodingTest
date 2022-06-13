@@ -4,16 +4,14 @@ import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 class PostFix53Test {
 
-    PostFix53 postFix53;
+    PostFix54 postFix53;
 
     @BeforeEach
     void init(){
         postFix53 = null;
-        postFix53 = new PostFix53();
+        postFix53 = new PostFix54();
     }
 
     @Test

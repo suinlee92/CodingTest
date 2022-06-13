@@ -3,7 +3,7 @@ package kr.co.codingTest.meotjh.chapter5;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class CraneGame {
+public class CraneGame53 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -24,7 +24,7 @@ public class CraneGame {
         }
 
         // logic start
-        CraneGame craneGame = new CraneGame();
+        CraneGame53 craneGame = new CraneGame53();
         int result = craneGame.resultCraneGame(craneItem, craneMovNum, craneMove);
 
         System.out.println(result);

@@ -3,13 +3,13 @@ package kr.co.codingTest.meotjh.chapter5;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class PostFix53 {
+public class PostFix54 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         String targets = sc.nextLine();
-        PostFix53 postFix53 = new PostFix53();
+        PostFix54 postFix53 = new PostFix54();
         Integer result = postFix53.getPostFixAnswer(targets);
         System.out.println(result);
     }
