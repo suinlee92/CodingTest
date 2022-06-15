@@ -1,4 +1,4 @@
-package kr.co.codingTest.suin.hashMap;
+package kr.co.codingTest.suin.Point;
 
 import java.util.Scanner;
 
