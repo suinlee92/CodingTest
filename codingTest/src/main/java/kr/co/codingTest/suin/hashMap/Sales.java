@@ -1,11 +1,9 @@
 package kr.co.codingTest.suin.hashMap;
 
-
 import java.util.HashMap;
 import java.util.Scanner;
 
 public class Sales {
-
     public static int[] check(int day, int sales, int[] array) {
 
         int cnt = sales;
