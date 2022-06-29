@@ -13,6 +13,7 @@ public class RemoveBracket {
         for (char c:array) {
             if(c == ')') {
                 while (stack.pop() != '(');
+
             }else {
                 stack.push(c);
             }
