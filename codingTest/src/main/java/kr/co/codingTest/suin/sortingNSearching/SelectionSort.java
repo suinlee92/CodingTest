@@ -2,7 +2,7 @@ package kr.co.codingTest.suin.sortingNSearching;
 
 import java.util.Scanner;
 
-public class selectionSort {
+public class SelectionSort {
 
     public static String selection(int n, int[] array) {
 
