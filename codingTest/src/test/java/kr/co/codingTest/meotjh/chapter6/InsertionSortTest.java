@@ -4,15 +4,13 @@ import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 class InsertionSortTest {
 
-    InsertionSort is;
+    InsertionSort3 is;
 
     @BeforeEach
     void setUp() {
-        is = new InsertionSort();
+        is = new InsertionSort3();
     }
 
     @Test

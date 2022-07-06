@@ -3,7 +3,7 @@ package kr.co.codingTest.meotjh.chapter6;
 import java.util.Scanner;
 import java.util.stream.IntStream;
 
-public class LeastRecentlyUsed {
+public class LeastRecentlyUsed4 {
 
     public static void main(String[] args) {
 
@@ -16,7 +16,7 @@ public class LeastRecentlyUsed {
             dataArr[i] = sc.nextInt();
         }
 
-        LeastRecentlyUsed lru = new LeastRecentlyUsed();
+        LeastRecentlyUsed4 lru = new LeastRecentlyUsed4();
         int[] cacheArr = lru.calculateLRU(cacheNums, dataLength, dataArr);
 
         for (int value : cacheArr) {
@@ -43,7 +43,6 @@ public class LeastRecentlyUsed {
                      temp1 = cacheArr[j];
                      cacheArr[j] = temp0;
                      temp0 = temp1;
-
                  }
              }else{
                  for(int j = 0; j < cacheNums; j ++){

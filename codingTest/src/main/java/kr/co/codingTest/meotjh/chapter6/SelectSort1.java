@@ -3,7 +3,7 @@ package kr.co.codingTest.meotjh.chapter6;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class SelectSort {
+public class SelectSort1 {
 
     public static void main(String[] args) {
 
@@ -16,7 +16,7 @@ public class SelectSort {
             sortTarget[i] = sc.nextInt();
         }
 
-        SelectSort ss = new SelectSort();
+        SelectSort1 ss = new SelectSort1();
         String sorted = ss.selecSortV2(arrNums, sortTarget);
 
         System.out.println(sorted);

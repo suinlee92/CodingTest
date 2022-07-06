@@ -3,7 +3,7 @@ package kr.co.codingTest.meotjh.chapter6;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class BubbleSort {
+public class BubbleSort2 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -14,7 +14,7 @@ public class BubbleSort {
             bubbleTarget[i] = sc.nextInt();
         }
 
-        BubbleSort bbs = new BubbleSort();
+        BubbleSort2 bbs = new BubbleSort2();
         String sort = bbs.sort(arrNum, bubbleTarget);
 
         System.out.println(sort);

@@ -6,11 +6,11 @@ import org.junit.jupiter.api.Test;
 
 class LeastRecentlyUsedTest {
 
-    LeastRecentlyUsed lru;
+    LeastRecentlyUsed4 lru;
 
     @BeforeEach
     void setUp() {
-        lru = new LeastRecentlyUsed();
+        lru = new LeastRecentlyUsed4();
     }
 
     @Test

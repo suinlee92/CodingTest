@@ -4,26 +4,28 @@ import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-class SelectSortTest {
+import static org.junit.jupiter.api.Assertions.*;
 
-    SelectSort1 ss;
+class DoubleCheck5Test {
+
+    DoubleCheck5 dc;
 
     @BeforeEach
     void setUp() {
-        ss = new SelectSort1();
+        dc = new DoubleCheck5();
     }
 
     @Test
-    void selecSortV2() {
+    void findDouble() {
         //given
-        int arrNums = 9;
-        int[] sortedTarget = {3, 7, 1, 5, 4, 2, 9, 8, 6};
+        int length = 8;
+        int[] arr = {20, 25, 52, 30, 39, 33, 43, 33};
 
         //when
-        String result = ss.selecSortV2(arrNums, sortedTarget);
+        String result = dc.findDouble(length, arr);
 
         //then
-        String answer = "[1, 2, 3, 4, 5, 6, 7, 8, 9]";
+        String answer = "D";
         Assertions.assertThat(result).isEqualTo(answer);
     }
 }

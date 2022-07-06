@@ -3,7 +3,7 @@ package kr.co.codingTest.meotjh.chapter6;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class InsertionSort {
+public class InsertionSort3 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -14,7 +14,7 @@ public class InsertionSort {
             targetArr[i] = scanner.nextInt();
         }
 
-        InsertionSort is = new InsertionSort();
+        InsertionSort3 is = new InsertionSort3();
         String rslt = is.insertionSort(arrNum, targetArr);
 
         System.out.println(rslt);
